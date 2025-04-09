@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "projeto-deploy-api"
+version = "0.1.0"
+description = ""
+authors = ["Lucas <lucas-mvs@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "projeto_deploy_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+taskipy = "^1.14.1"
+pytest = "^8.3.5"
+httpx = "^0.28.1"
+sqlalchemy = "^2.0.40"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
